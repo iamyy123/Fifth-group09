@@ -2,6 +2,7 @@ import React from 'react';
 import MyTitle from './MyTitle';
 import Sidebar from './Sidebar';
 import NewContent from './NewContent';
+import NewContent1 from './NewContent1';
 
 const SysPage2 = () => {
   // 定义左侧栏的标题和内容
@@ -22,8 +23,8 @@ const SysPage2 = () => {
         <Sidebar title={sidebarTitle} menuItems={menuItems} />
         <div className="flex-1 bg-gray-100 p-4 overflow-auto">
           <div className='flex flex-row'>
-          
           <NewContent></NewContent>
+           <NewContent1></NewContent1>
           </div>
           </div>
         </div>
