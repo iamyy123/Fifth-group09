@@ -2,11 +2,9 @@ import React from 'react';
 import MyTitle from './MyTitle';
 import Sidebar from './Sidebar';
 import NewContent from './NewContent';
-<<<<<<< HEAD
 import NewContent3 from './NewContent3';
-=======
 import NewContent1 from './NewContent1';
->>>>>>> 5526ef4bdbf0004a0a3402e8a69d33ba53578425
+import NewContent2 from './NewContent2';
 
 const SysPage2 = () => {
   // 定义左侧栏的标题和内容
@@ -26,17 +24,16 @@ const SysPage2 = () => {
       <div className="flex flex-1 overflow-hidden">
         <Sidebar title={sidebarTitle} menuItems={menuItems} />
         <div className="flex-1 bg-gray-100 p-4 overflow-auto">
-          <div className='flex flex-row'>
+          <div className='flex flex-col'>
           <NewContent></NewContent>
-<<<<<<< HEAD
           <NewContent3></NewContent3>
-=======
            <NewContent1></NewContent1>
->>>>>>> 5526ef4bdbf0004a0a3402e8a69d33ba53578425
+           <NewContent2></NewContent2>
+
           </div>
           </div>
         </div>
-      </div>
+        </div>
   );
 }
 
